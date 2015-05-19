@@ -1,0 +1,21 @@
+{
+  "name": "verheesj/image-hasher",
+  "description": "Compare the similarity of two images using Average/Mean Hash and Perceptive Hash Algorithm.",
+  "keywords": ["ahash", "phash", "dhash", "ai", "image", "perceptive", "hash", "similar", "images"],
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jonny Verhees",
+      "email": "jonathan@verhe.es"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Verhees\\Imagehash\\": "src/Imagehash/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0"
+  }
+}
